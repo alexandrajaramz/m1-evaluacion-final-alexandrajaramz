@@ -1,3 +1,45 @@
+.tips__section-title {
+  color: #8ccbea;
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+
 .tips__content {
-  background: cyan;
+/*   background: cyan; */
+  width: 290px;
+  margin-top: 0;
+}
+
+.tips__content-title1 {
+  color: #000000;
+  font-family: 'Roboto Slab';
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 0;
+}
+
+.tips__content-p1 {
+  color: #4a4a4a;
+  font-family: 'Roboto';
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.tips__go {
+/*   background: lime; */
+  width: 76px;
+  height: 45px;
+  border: 2px solid #f26002;
+  border-radius: 22.5px;
+  text-align: center;
+}
+
+.tips__go-link {
+  text-decoration: none;
+  color: #f26002;
+  font-family: 'Roboto';
+  font-size: 20px;
+  line-height: 45px;
 }

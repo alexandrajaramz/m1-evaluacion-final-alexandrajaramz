@@ -1,8 +1,10 @@
 .hero__section {
   background-image: url(../images/cover.jpg);
   background-size: cover;
+  background-position: center;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -40,7 +42,7 @@
   border-radius: 50%;
   position: absolute;
   top: 85vh;
-  left: 45vw;
+  left: 42vw;
   }
 
 .hero__go-down-link {
