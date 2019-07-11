@@ -77,3 +77,32 @@
 .footer__claim-heart {
   color: #f26002;
 }
+
+/* MEDIA QUERIE TABLET */
+
+@media all and (min-width: 768px){
+  .flex-container {
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 45px;
+  }
+  .footer__arrow {
+    position: absolute;
+    top: 0;
+    left: 48%;
+  }
+  .footer__copyclaim {
+    order: 1;
+    transform: translateY(-25px);
+  }
+  .footer__navigation {
+    order: 2;
+    margin-top: 45px;
+  }
+  .footer__socialnetwork {
+    order: 3;
+  }
+}
+
+/* MEDIA QUERY DESKTOP (no needed) */
