@@ -1,0 +1,19 @@
+.central-container {
+  margin: 0 15px;
+}
+
+/* MEDIAQUERY TABLET */
+
+@media all and (min-width: 768px){
+  .central-container {
+    margin: 0 40px;
+  }
+}
+
+/* MEDIAQUERY DESKTOP */
+
+@media all and (min-width: 1200px){
+  .central-container {
+    margin: 0 275px;
+  }
+}
