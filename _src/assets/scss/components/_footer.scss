@@ -7,7 +7,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .footer__arrow {
@@ -19,39 +18,51 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  animation-name: inherit;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes intro {
+  from {
+    transform: scale(1), rotate(0);
+  }
+  to {
+    transform: scale(1.3), rotate(-50deg);
+  }
 }
 
 .footer__navigation-list {
   list-style: none;
   padding-left: 0;
   margin-bottom: 30px;
-}
 
-.footer__navigation-link {
-  text-decoration: none;
-  color: #ffffff;
-  font-family: 'Roboto';
-  font-size: 16px;
-  line-height: 30px;
-  text-transform: uppercase;
+  a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: uppercase;
+  }
 }
 
 .footer__socialnetwork-list {
   list-style: none;
   padding-left: 0;
   margin-bottom: 30px;
+
+    a {
+      text-decoration: none;
+      color: #ffffff;
+      font-family: 'Roboto';
+      font-size: 16px;
+      line-height: 30px;
+      text-transform: uppercase;
+    }
 }
 
-.footer__socialnetwork-element {
-  text-decoration: none;
-  color: #ffffff;
-  font-family: 'Roboto';
-  font-size: 16px;
-  line-height: 30px;
-  text-transform: uppercase;
-}
-
-.footer__copy {
+.footer__copyclaim p {
   color: #ffffff;
   font-family: 'Roboto';
   font-size: 14px;
@@ -60,11 +71,6 @@
 }
 
 .footer__claim {
-  color: #ffffff;
-  font-family: 'Roboto';
-  font-size: 14px;
-  line-height: 30px;
-  margin-top: 0;
   margin-bottom: 45px;
 }
 
