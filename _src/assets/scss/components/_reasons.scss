@@ -43,4 +43,9 @@
   font-size: 20px;
   line-height: 45px;
   margin-bottom: 60px;
+  transition: transform ease 0.3s;
+}
+
+.reasons__button:hover {
+  transform: scale(1.2);
 }
