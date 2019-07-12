@@ -10,7 +10,7 @@
 }
 
 .footer__arrow {
-  background-color: white;
+  background-color: $color-white;
   width: 45px;
   height: 45px;
   border-radius: 50%;
@@ -46,7 +46,7 @@
 
   a {
     text-decoration: none;
-    color: #ffffff;
+    color: $color-white;
     font-family: 'Roboto';
     font-size: 16px;
     line-height: 30px;
@@ -61,7 +61,7 @@
 
     a {
       text-decoration: none;
-      color: #ffffff;
+      color: $color-white;
       font-family: 'Roboto';
       font-size: 16px;
       line-height: 30px;
@@ -70,7 +70,7 @@
 }
 
 .footer__copyclaim p {
-  color: #ffffff;
+  color: $color-white;
   font-family: 'Roboto';
   font-size: 14px;
   line-height: 30px;
@@ -82,7 +82,7 @@
 }
 
 .footer__claim-heart {
-  color: #f26002;
+  color: $color-orange;
 }
 
 /* MEDIA QUERIE TABLET */

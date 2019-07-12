@@ -7,7 +7,7 @@
 }
 
 .reasons__title {
-  color: #000000;
+  color: $color-black;
   font-family: 'Roboto Slab';
   font-size: 24px;
   line-height: 30px;
@@ -19,26 +19,26 @@
 }
 
 .reasons__list-title {
-  color: #000000;
+  color: $color-black;
   font-family: 'Roboto Slab';
   font-size: 18px;
   line-height: 30px;
 }
 
 .reasons__list-p {
-  color: #000000;
+  color: $color-black;
   font-family: 'Roboto';
   font-size: 18px;
   line-height: 30px;
 }
 
 .reasons__button {
-  background-color: #f26002;
+  background-color: $color-orange;
   width: 184px;
   height: 45px;
   border-style: none;
   border-radius: 22.5px;
-  color: #ffffff;
+  color: $color-white;
   font-family: 'Roboto';
   font-size: 20px;
   line-height: 45px;

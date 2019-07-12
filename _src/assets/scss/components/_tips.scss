@@ -21,7 +21,7 @@
 }
 
 .tips__content-title1 {
-  color: #000000;
+  color: $color-black;
   font-family: 'Roboto Slab';
   font-size: 24px;
   line-height: 30px;
@@ -38,7 +38,7 @@
 .tips__go {
   width: 76px;
   height: 45px;
-  border: 2px solid #f26002;
+  border: 2px solid $color-orange;
   border-radius: 22.5px;
   text-align: center;
   margin-bottom: 45px;
@@ -67,7 +67,7 @@
 
 .tips__go-link {
   text-decoration: none;
-  color: #f26002;
+  color: $color-orange;
   font-family: 'Roboto';
   font-size: 20px;
   line-height: 45px;
