@@ -48,7 +48,10 @@
 }
 
 .hero__go-down-link {
-  margin-top: 5px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
 }
 
 /* MEDIA QUERY TABLET */
@@ -75,5 +78,9 @@
   .hero__title {
     font-size: 100px;
     line-height: 132px;
+    margin-bottom: 0;
+  }
+  .hero__flex-container {
+    transform: translateY(550px);
   }
 }
