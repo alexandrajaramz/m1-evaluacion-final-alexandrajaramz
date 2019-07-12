@@ -67,6 +67,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
+    grid-gap: 27px;
   }
   .rs__e1 {
     grid-column: 1/2;
@@ -80,7 +81,18 @@
   .reasons__button {
     width: 210px;
   }
-
 }
+
+/* MEDIA QUERY DESKTOP */
+
+@media all and (min-width: 1200px){
+  .reasons__title {
+    font-size: 32px;
+  }
+  .reasons__button {
+    width: 255px;
+  }
+}
+
 
 
