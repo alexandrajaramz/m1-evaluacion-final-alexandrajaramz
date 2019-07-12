@@ -3,16 +3,17 @@
   background-size: cover;
   background-position: center;
   height: 100vh;
+  position: relative;
 }
 
 .hero__flex-container {
 /*   background: lime; */
-  max-height: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  transform: translateY(50vh);
+  transform: translateY(50%);
 }
 
 .hero__content {
@@ -44,7 +45,10 @@
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  transform: translateY(20vh);
+  position: absolute;
+  bottom: 53px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .hero__go-down-link {
@@ -68,7 +72,7 @@
     font-size: 24px;
   }
   .hero__go-down {
-    transform: translateY(0);
+    bottom: 45px;
   }
 }
 
@@ -82,5 +86,8 @@
   }
   .hero__flex-container {
     transform: translateY(410px);
+  }
+  .hero__go-down {
+    bottom: 13px;
   }
 }
