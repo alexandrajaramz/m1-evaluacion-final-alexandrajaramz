@@ -114,4 +114,10 @@
   }
 }
 
-/* MEDIA QUERY DESKTOP (no needed) */
+/* MEDIA QUERY DESKTOP */
+
+@media all and (min-width: 1200px){
+  .flex-container {
+    justify-content: space-around;
+  }
+}
