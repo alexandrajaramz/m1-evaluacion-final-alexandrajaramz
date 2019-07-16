@@ -1,5 +1,5 @@
 .footer__section {
-  background-color: #304268;
+  background-color: $color-blue;
 }
 
 .flex-container {
@@ -46,7 +46,7 @@
 
   a {
     text-decoration: none;
-    color: $color-white;
+    color: $color-footertexts;
     font-family: 'Roboto';
     font-size: 16px;
     line-height: 30px;
@@ -57,11 +57,12 @@
 .footer__socialnetwork-list {
   list-style: none;
   padding-left: 0;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+  margin-top: 36px;
 
     a {
       text-decoration: none;
-      color: $color-white;
+      color: $color-footertexts;
       font-family: 'Roboto';
       font-size: 16px;
       line-height: 30px;
@@ -69,8 +70,13 @@
     }
 }
 
+.footer__copyclaim {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer__copyclaim p {
-  color: $color-white;
+  color: $color-footertexts;
   font-family: 'Roboto';
   font-size: 14px;
   line-height: 30px;
@@ -79,6 +85,10 @@
 
 .footer__claim {
   margin-bottom: 45px;
+
+}
+.footer__copy {
+  order: 1;
 }
 
 .footer__claim-heart {
@@ -111,6 +121,9 @@
   .footer__socialnetwork {
     order: 3;
     text-align: left;
+  }
+  .components {
+    color: $color-orange;
   }
 }
 
